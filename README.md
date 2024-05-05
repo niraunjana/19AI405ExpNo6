@@ -1,23 +1,20 @@
 <h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: NIRAUNJANA GAYATHRI G R</h3>
-<h3>Register Number: 212222230096</h3>
-<H3>Aim:</H3>
-<p>
-    Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
-</p>
 
-<H3>Theory and Procedure:</H3>
+```
+Name: NIRAUNJANA GAYATHRI G R
+Register Number: 212222230096
+```
+
+## Aim:
+Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
+## Theory and Procedure:
 To begin, let's start by defining what it means to play a perfect game of tic tac toe:
-
 If I play perfectly, every time I play I will either win the game, or I will draw the game. Furthermore if I play against another perfect player, I will always draw the game.
-
 How might we describe these situations quantitatively? Let's assign a score to the "end game conditions:"
-
 I win, hurray! I get 10 points!
 I lose, shit. I lose 10 points (because the other player gets 10 points)
 I draw, whatever. I get zero points, nobody gets any points.
 So now we have a situation where we can determine a possible score for any game end state.
-
 Looking at a Brief Example
 To apply this, let's take an example from near the end of a game, where it is my turn. I am X. My goal here, obviously, is to maximize my end game score.
 
